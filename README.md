@@ -53,10 +53,17 @@ There are some issues with classifying other parts of the skin as face and not g
 ![Result Curly Bad](/README_images/bad/curly5.jpg)
 ![Result Short Bad](/README_images/bad/shortmen9.jpg)
 
+
+
+
 ## Files to change for custom dataset training
+
+Look in the modified_files/ directory to see files I download into deeplab.ipynb
+
 * train_utils.py
 * data_generator.py
 * eval.py
+
 
 ### train_utils.py
 *Replace*
