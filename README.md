@@ -19,15 +19,15 @@ File descriptions:
   * (CelebA images)[http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html]
   
 **Preprocessing needs to be done to convert segmentation maps to color-indexed images.**
-0 = background
-1 = hair
-2 = skin
+* 0 = background
+* 1 = hair
+* 2 = skin
 
 ### Preprocessing LFW - Parts Dataset
 The segmentation maps have the following colors converted to 
-blue to 0 = background
-red to 1 = hair
-green to 2 = skin
+* blue to 0 = background
+* red to 1 = hair
+* green to 2 = skin
 
 ### Preprocessing CelebA
 The file 'celebA_data.ipynb' does the preprocessing seperate from the 'deeplab.ipynb'. We have to convert to color-indexed image and fix some bad pixels in the image.
@@ -35,21 +35,21 @@ The file 'celebA_data.ipynb' does the preprocessing seperate from the 'deeplab.i
 
 ## Results
 Weights for classes:
-1, background
-10, hair
-5, face
+* 1, background
+* 10, hair
+* 5, face
 
-**10000 iterations:**
-class_0: 0.91722
-class_1: 0.66235
-class_2: 0.83431
-mean_iou: 0.8046266666666666
+**10000 iterations: miou**
+* class_0: 0.91722
+* class_1: 0.66235
+* class_2: 0.83431
+* mean_iou: 0.8046266666666666
 
-**20000 iterations:**
-class_0: 0.92631
-class_1: 0.67995
-class_2: 0.85498
-mean_iou: 0.8204133333333333
+**20000 iterations: miou**
+* class_0: 0.92631
+* class_1: 0.67995
+* class_2: 0.85498
+* mean_iou: 0.8204133333333333
 
 ### Good results
 
