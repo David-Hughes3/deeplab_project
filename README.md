@@ -1,6 +1,17 @@
 # deeplab_project
 
-File 'deeplab.ipynb' custom trains over a face/hair/background segmentation dataset.
+File descriptions:
+* deeplab.ipynb
+    * jupyter notebook to custom train over a face/hair/background segmentation dataset in google colab
+* celebA_data.ipynb
+    * jupyter notebook to preprocess celebA images and masks 
+* modified_files/
+    * directory that contains tensorflow's files that need to be modified for custom training with deeplab
+* README_images/
+    * results images
+* Refined_Hair_Image_Segmentation_poster.pdf
+    * poster presented at Cal Poly Pomona's Creative Activities & Research Symposium (CARS)
+
 
 ## Custom Dataset
 * (Labeled Faces in the Wild - Parts Dataset)[http://vis-www.cs.umass.edu/lfw/part_labels/]
