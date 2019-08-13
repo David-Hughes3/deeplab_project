@@ -1,5 +1,7 @@
 # deeplab_project
 
+Computational Intelligence Lab in the Department of Computer Science at Cal Poly Pomona
+
 File descriptions:
 * deeplab.ipynb
     * jupyter notebook to custom train over a face/hair/background segmentation dataset in google colab
@@ -11,6 +13,8 @@ File descriptions:
     * results images
 * Refined_Hair_Image_Segmentation_poster.pdf
     * poster presented at Cal Poly Pomona's Creative Activities & Research Symposium (CARS)
+* deeplabv3plus_slides.pdf
+    * presentation slides about deeplabv3+ and custom detection
 
 
 ## Custom Dataset
