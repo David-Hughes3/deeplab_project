@@ -1,7 +1,6 @@
 # deeplab_project
 
-Author: David Hughes
- *Computational Intelligence Lab in the Department of Computer Science at Cal Poly Pomona*
+Custom training with tensorflow's deeplabv3+ implementation as a Google Colab Jupyter notebook
 
 **File descriptions:**
 * deeplab.ipynb
@@ -184,3 +183,6 @@ other custom metrics can be added before tf.summary.merge_all() if desired
 ## Some resources
 * http://hellodfan.com/2018/07/06/DeepLabv3-with-own-dataset/
 * https://www.freecodecamp.org/news/how-to-use-deeplab-in-tensorflow-for-object-segmentation-using-deep-learning-a5777290ab6b/
+
+## Authors
+* **David Hughes** - *Computational Intelligence Lab in the Department of Computer Science at Cal Poly Pomona*
