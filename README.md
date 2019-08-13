@@ -2,7 +2,7 @@
 
 Custom training with tensorflow's deeplabv3+ implementation as a Google Colab Jupyter notebook
 
-**File descriptions:**
+**Github File descriptions:**
 * deeplab.ipynb
     * jupyter notebook to custom train over a face/hair/background segmentation dataset in google colab
 * celebA_data.ipynb
@@ -16,6 +16,25 @@ Custom training with tensorflow's deeplabv3+ implementation as a Google Colab Ju
 * deeplabv3plus_slides.pdf
     * presentation slides about deeplabv3+ and custom detection
 
+## Custom Training Steps
+1. Modify tensorflow files with your dataset information
+2. Convert masks to color-indexed images
+3. Create
+    * ‘train.txt’ with training image filenames
+    * ‘val.txt’ with validation image filenames
+    * ‘trainval.txt’ with both
+    * NOTE: training images and masks should have the same filename
+4. Create a tfrecord of your dataset using ‘build_voc2012_data.py’
+    * Tfrecord = a Tensorflow binary storage format
+5. If using a pre-trained model (transfer learning)
+    * https://github.com/tensorflow/models/blob/master/research/deeplab/g3doc/model_zoo.md
+6. Run ‘train.py’
+7. Run ‘eval.py’ - custom file has miou per class and overall miou
+8. Run ‘vis.py’ - to get segmentation masks
+9. Run ‘export_model.py’ to save your trained ‘frozen_inference_graph.pb’
+10. Use ‘deeplab_demo.ipynb’ with your checkpoint for future inference
+   
+**These steps can be seen in the deeplab.ipynb jupyter notebook for google colab**    
 
 ## Custom Dataset
 * (Labeled Faces in the Wild - Parts Dataset)[http://vis-www.cs.umass.edu/lfw/part_labels/]
