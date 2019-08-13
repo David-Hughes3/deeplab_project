@@ -1,8 +1,9 @@
 # deeplab_project
 
-Computational Intelligence Lab in the Department of Computer Science at Cal Poly Pomona
+Author: David Hughes
+ *Computational Intelligence Lab in the Department of Computer Science at Cal Poly Pomona*
 
-File descriptions:
+**File descriptions:**
 * deeplab.ipynb
     * jupyter notebook to custom train over a face/hair/background segmentation dataset in google colab
 * celebA_data.ipynb
